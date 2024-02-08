@@ -67,9 +67,10 @@ p#advice__para {
     }
 
 #photo {
-    position: absolute;
-    right: 20px;
-    top:70%;
+    position: relative;
+    bottom: 60%;
+    right: 50%;
+    margin: 0 auto;
 }
  .divde {
     width: 250px;
