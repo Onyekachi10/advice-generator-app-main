@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;800&display=swap");
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+    section {
+        background-color: hsl(218, 23%, 16%);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        min-height: 100vh;
+        font-family: "Manrope", sans-serif;
+        justify-content: center; 
+        font-weight: 800;
+      }
+
+
+div.advice {
+    border: 2px solid;
+    padding: 6rem 2rem;
+    border-radius: 10px;
+    text-align: center;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-size: 9px;
+    color: hsl(193, 38%, 86%);
+    width: 600px;
+} 
+
+h1 {
+    color: hsl(150, 100%, 66%);
+    margin-bottom: 70px;
+}
+
+#photo {
+    border: 2px solid;
+    color:hsl(150, 100%, 66%);
+    width: 40px;
+    border-radius: 10px;
+    padding: 1rem .5rem;
+    background-color:hsl(150, 100%, 66%);
+    position: absolute;
+    top: 70%;
+    left: 48.5%;
+    cursor: pointer;
+}
+p#advice__para {
+    font-size:20px;
+}
+
+@media screen and (max-width:600px) {
+    div.advice {
+        width:300px;
+        box-shadow: 5px 5px black;
+    }
+
+#photo {
+    position: absolute;
+    right: 15px;
+    top:40px;
+}
+ .divde {
+    width: 250px;
+ }
+}
+
+
+
+
+
